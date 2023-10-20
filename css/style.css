@@ -1,0 +1,137 @@
+html{
+    background-color: hsl(216, 12%, 8%);
+}
+body{
+    font-family: 'Overpass', sans-serif;
+}
+.gridcontainer{
+    background-color: hsl(216, 12%, 8%);
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+
+}
+.grid {
+    background-color:hsl(213, 20%, 18%);
+    color:hsl(0, 0%, 100%) ;
+    margin: 5em;
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-template-columns: 75%;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: inset 0px 0px 300px 10px hsl(216, 12%, 8%);
+}
+
+.star {
+ background-color:hsla(216, 12%, 54%, 0.31);
+ width: 30px;
+ height: 30px;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+}
+h1{
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    justify-content: center;
+}
+
+p{
+display: grid;
+justify-content: center;
+font-size: 15px;
+color: hsl(217, 12%, 63%);
+text-align: center;
+}
+.numbers {
+    width: fit-content;
+ display: grid;
+ justify-content: space-between;
+ gap: 20px;
+ grid-template-columns: repeat(5, 1fr);
+ cursor: pointer;
+ margin-bottom: 20px;
+ border: none;
+ padding: none;
+}
+.calification{
+ background-color: hsla(216, 12%, 54%, 0.31);
+ height: 3em;
+ width: 3em;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+}
+.calification:hover{
+    background-color:hsl(217, 12%, 63%);
+}
+.whenclicked{
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(0, 0%, 100%);
+}
+
+button{
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.selection{
+    border: none;
+    background-color: hsla(216, 12%, 54%, 0.31);
+    color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+    height: 2.5em;
+    width: auto;
+    margin: auto;
+    font-size: 15px;
+    display: grid;
+}
+.thankimg{
+    margin: 20px;
+}
+.row1{
+    display: grid;
+    justify-content: center;
+}
+body{
+    max-height: 1440px;
+}
+footer{
+    margin-top: 1000px;
+    
+}
+.hidden{
+visibility: hidden;
+position: absolute;
+}
+
+button:active{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.row2 {
+    display: flex;
+    position:relative;
+    background-color: hsla(216, 12%, 54%, 0.31);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 10px;
+    width: auto;
+
+}
